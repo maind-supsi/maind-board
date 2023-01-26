@@ -4,6 +4,7 @@ PCB board for the Arduino Nano family developed during the master program
 
 ## MAIND board V0.2
 
+![alt text](https://github.com/maind-supsi/maind-board/blob/main/MAIND-board-V0.2/PCB_MAIND_board_V0.2.png "PCB MAIND board V0.2")
 
 The second version of the board is a great improvement with more connections and an external USB-C power connection for the Neopixels and Servo motors.
 
@@ -20,6 +21,8 @@ The 5V feature 600uF of integrated total buffer capacity to properly provide pow
 
 
 ## MAIND board V0.1
+
+![alt text](https://github.com/maind-supsi/maind-board/blob/main/MAIND-board-V0.1/PCB_MAIND_board_V0.1.png "PCB MAIND board V0.1")
 
 The first version of the board was developed for MAIND edition 2021-2022.
 
