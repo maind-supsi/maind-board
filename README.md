@@ -8,7 +8,7 @@ PCB board for the Arduino Nano family developed during the master program
 
 The second version of the board is a great improvement with more connections and an external USB-C power connection for the Neopixels and Servo motors.
 
-All the grove connectors have also a second raw with standard female headers for a better wireing flexibility.
+All the grove connectors have also a second raw with standard female headers for better wiring flexibility.
 
 The I2C connectors can be individually set to 5V or 3.3V with the soldering pads.
 
