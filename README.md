@@ -1,2 +1,30 @@
 # maind-board
 PCB board for the Arduino Nano family developed during the master program
+
+
+## MAIND board V0.2
+
+
+The second version of the board is a great improvement with more connections and an external USB-C power connection for the Neopixels and Servo motors.
+
+All the grove connectors have also a second raw with standard female headers for a better wireing flexibility.
+
+The I2C connectors can be individually set to 5V or 3.3V with the soldering pads.
+
+It can host any of the Arduino Nano 33 family boards.
+
+It is required to solder the "VUSB" pad on the Arduino board to power it from the USB-C connector.
+
+The 5V feature 600uF of integrated total buffer capacity to properly provide power for Neopixel and Servo motors.
+
+
+
+## MAIND board V0.1
+
+The first version of the board was developed for MAIND edition 2021-2022.
+
+The board features connectors for the grove system, a power header with 5V, 3.3V and GND, and a connection for a Neopixel strip or a Servo motor.
+
+The side slots allow great mounting flexibility.
+
+It can host any of the Arduino Nano 33 family boards.
