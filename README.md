@@ -16,7 +16,7 @@ It can host any of the Arduino Nano 33 family boards.
 
 It is required to solder the "VUSB" pad on the Arduino board to power it from the USB-C connector.
 
-The 5V feature 600uF of integrated total buffer capacity to properly provide power for Neopixel and Servo motors.
+The 5V rail features 600uF of integrated total buffer capacity to properly provide power for Neopixels and Servo motors.
 
 
 
