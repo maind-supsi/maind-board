@@ -1,6 +1,18 @@
 # maind-board
 PCB board for the Arduino Nano family developed during the [MAInD - Master of Arts in Interaction Design](https://maind.supsi.ch/master-interaction-design/) at [SUPSI - University of Applied Sciences and Arts of Southern Switzerland](https://www.supsi.ch/home_en.html).
 
+The MAInD board has been developed as an educational tool supporting the ongoing transition to using MicroPython with Arduino.
+The MicroPython codes and libraries and the project developed by the MAInD students are documented in this repository [MAInD Master SUPSI - Micropython with Arduino](https://master-interaction-design.notion.site/MAInD-Master-SUPSI-Micropython-with-Arduino-772c06aa0dee4c35a509a4daac6c72dd).
+
+
+## MAIND board V1.0 (offical release)
+
+![alt text](https://github.com/maind-supsi/maind-board/blob/main/MAIND-board-V1.0/PCB_MAIND_board_V1.0.png "PCB MAIND board V1.0")
+
+This is the first official release after two years of development and testing during Tangible Interfaces and Physical Computing courses at the MAInD.
+
+The fixes and improvements consist of labeling fixes, pin swapping, and the final silkscreen on the back.
+
 
 ## MAIND board V0.2
 
