@@ -8,7 +8,7 @@ The MicroPython codes and libraries and the project developed by the MAInD stude
 :point_right: [MAInD Master SUPSI - Micropython with Arduino](https://master-interaction-design.notion.site/MAInD-Master-SUPSI-Micropython-with-Arduino-772c06aa0dee4c35a509a4daac6c72dd).
 
 
-## MAIND board V1.0 (offical release)
+## MAIND board V1.0 (official release)
 
 ![alt text](https://github.com/maind-supsi/maind-board/blob/main/MAIND-board-V1.0/PCB_MAIND_board_V1.0.png "PCB MAIND board V1.0")
 
