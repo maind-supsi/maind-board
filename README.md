@@ -4,7 +4,7 @@ PCB board for the Arduino Nano family developed during the [MAInD - Master of Ar
 The MAInD board has been developed as an educational tool supporting the ongoing transition to using MicroPython with Arduino.
 
 The MicroPython codes and libraries and the project developed by the MAInD students are documented in this repository:
-### [MAInD Master SUPSI - Micropython with Arduino](https://master-interaction-design.notion.site/MAInD-Master-SUPSI-Micropython-with-Arduino-772c06aa0dee4c35a509a4daac6c72dd).
+:point_right: [MAInD Master SUPSI - Micropython with Arduino](https://master-interaction-design.notion.site/MAInD-Master-SUPSI-Micropython-with-Arduino-772c06aa0dee4c35a509a4daac6c72dd).
 
 
 ## MAIND board V1.0 (offical release)
