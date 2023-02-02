@@ -16,6 +16,13 @@ This is the first official release after two years of development and testing du
 
 The fixes and improvements consist of labeling fixes, pin swapping, and the final silkscreen on the back.
 
+Improvements:
+- Added 3.3/5V selection soldering pad for the connector A1/A0
+- Inverted the pin A0<->A1
+- Set the I2C port with V2 to 5V as defalut, to connect 5V devices (for example a 16x2 LCD)
+- Fixed D0/TX - D1/RX previous labeling mistake
+- Added the back silkscreen graphics
+
 
 ## MAIND board V0.2
 
@@ -32,6 +39,10 @@ It can host any of the Arduino Nano 33 family boards.
 It is required to solder the "VUSB" pad on the Arduino board to power it from the USB-C connector.
 
 The 5V rail features 600uF of integrated total buffer capacity to properly provide power for Neopixels and Servo motors.
+
+Known issues:
+
+- D0/RX and D1/TX connector labeling is wrong (it should be D0/TX and D1/RX). The electrical connection is correct btw
 
 
 
