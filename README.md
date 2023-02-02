@@ -1,17 +1,27 @@
-# maind-board
+# MAIND BOARD
 PCB board for the Arduino Nano family developed during the [MAInD - Master of Arts in Interaction Design](https://maind.supsi.ch/master-interaction-design/) at [SUPSI - University of Applied Sciences and Arts of Southern Switzerland](https://www.supsi.ch/home_en.html).
 
 The MAInD board has been developed as an educational tool supporting the ongoing transition to using MicroPython with Arduino.
-The MicroPython codes and libraries and the project developed by the MAInD students are documented in this repository [MAInD Master SUPSI - Micropython with Arduino](https://master-interaction-design.notion.site/MAInD-Master-SUPSI-Micropython-with-Arduino-772c06aa0dee4c35a509a4daac6c72dd).
+
+The MicroPython codes and libraries and the project developed by the MAInD students are documented in this repository:
+
+:point_right: [MAInD Master SUPSI - Micropython with Arduino](https://master-interaction-design.notion.site/MAInD-Master-SUPSI-Micropython-with-Arduino-772c06aa0dee4c35a509a4daac6c72dd).
 
 
-## MAIND board V1.0 (offical release)
+## MAIND board V1.0 (official release)
 
 ![alt text](https://github.com/maind-supsi/maind-board/blob/main/MAIND-board-V1.0/PCB_MAIND_board_V1.0.png "PCB MAIND board V1.0")
 
 This is the first official release after two years of development and testing during Tangible Interfaces and Physical Computing courses at the MAInD.
 
 The fixes and improvements consist of labeling fixes, pin swapping, and the final silkscreen on the back.
+
+Improvements:
+- Added 3.3/5V selection soldering pad for the connector A1/A0
+- Inverted the pin A0<->A1
+- Set the I2C port with V2 to 5V as defalut, to connect 5V devices (for example a 16x2 LCD)
+- Fixed D0/TX - D1/RX previous labeling mistake
+- Added the back silkscreen graphics
 
 
 ## MAIND board V0.2
@@ -30,6 +40,10 @@ It is required to solder the "VUSB" pad on the Arduino board to power it from th
 
 The 5V rail features 600uF of integrated total buffer capacity to properly provide power for Neopixels and Servo motors.
 
+Known issues:
+
+- D0/RX and D1/TX connector labeling is wrong (it should be D0/TX and D1/RX). The electrical connection is correct btw
+
 
 
 ## MAIND board V0.1
@@ -43,3 +57,6 @@ The board features connectors for the grove system, a power header with 5V, 3.3V
 The side slots allow great mounting flexibility.
 
 It can host any of the Arduino Nano 33 family boards.
+
+Known issues:
+- The pins A5(SCL) and A4(SDA) are inverted on the I2C connectors of the board compared to the grove reference.
