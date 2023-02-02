@@ -57,3 +57,6 @@ The board features connectors for the grove system, a power header with 5V, 3.3V
 The side slots allow great mounting flexibility.
 
 It can host any of the Arduino Nano 33 family boards.
+
+Known issues:
+- The pins A5(SCL) and A4(SDA) are inverted on the I2C connectors of the board compared to the grove reference.
