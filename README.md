@@ -18,7 +18,7 @@ The fixes and improvements consist of labeling fixes, pin swapping, and the fina
 
 Improvements:
 - Added 3.3/5V selection soldering pad for the connector A1/A0
-- Inverted the pin A0<->A1 to have the I2C1 compatible with grove on that connector with the Nano RP2040 Connect
+- Inverted the pin A0<->A1 for I2C1 compatibility with the Nano RP2040 Connect
 - Set the I2C port with V2 to 5V as defalut, to connect 5V devices (for example a 16x2 LCD)
 - Fixed D0/TX - D1/RX previous labeling mistake
 - Added the back silkscreen graphics
